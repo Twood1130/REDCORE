@@ -2,14 +2,14 @@
 //Tristan Woodrich
 //9/11/2018
 
-
-
 module hex_controller(
 
+//inputs for 3 8-bit data fields
 	input [7:0] data_0,
 	input [7:0] data_1,
 	input [7:0] data_2,
 	
+//outputs for the 6 7-segment displays
 	output reg [6:0] hex_display_0,
 	output reg [6:0] hex_display_1,
 	output reg [6:0] hex_display_2,

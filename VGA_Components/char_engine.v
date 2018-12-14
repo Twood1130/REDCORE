@@ -229,7 +229,7 @@ module char_engine(
 					mem_buffer[63:56] <= 8'b00000000;
 					end
 					
-			8'h27: begin //,
+			8'h2C: begin //,
 					mem_buffer[7:0] <=   8'b00000000;
 					mem_buffer[15:8] <=  8'b00000000;
 					mem_buffer[23:16] <= 8'b00000000;
